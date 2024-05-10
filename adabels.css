@@ -8,8 +8,8 @@
 
 body {
     height: 100vh;
-   background-color: #95c591;
-    background-image: url("green.jpg");
+    background-color: #000;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("home.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -119,20 +119,6 @@ header {
     justify-content: center;
 }
 
-section#hero {
-    height: calc(100vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-}
-
-#hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
 .row{
     display: flex;
     height: 88%;
@@ -143,19 +129,19 @@ section#hero {
     margin-left: 8%;
 }
 h2{
-    color: rgb(238, 232, 232);
+    color: #fff;
     font-size: 80px;
 
 }
 p{
-    color: rgb(238, 232, 232);
+    color: #fff;
     font-size: 15px;
     line-height: 19px;
     align-items: center;
 }
 
 .card{
-    width: 200px;
+    width: 150px;
     height: 190px;
     display: inline-block;
     border-radius: 10px;
@@ -168,28 +154,28 @@ p{
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url(aboutus.jpg);
+    background-image: url(bg.jpg);
 }
 .card2{
-    background-image: url(bst.jpg);
+    background-image: url(bg1.jpg);
 }
 .card3{
-    background-image: url(bst1.jpg);
+    background-image: url(home.jpg);
 }
 .card4{
-    background-image: url(aboutus1.jpg);
+    background-image: url(bg.jpg);
 }
 .card5{
-    background-image: url(bst2.jpg);
+    background-image: url(bg1.jpg);
 }
 .card6{
-    background-image: url(bst3.jpg);
+    background-image: url(home.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
 }
 h5{
-    color: rgb(238, 232, 232);
+    color: black;
     text-shadow: 0 0 5px #ffffff;
     text-decoration: solid;
 }
@@ -204,6 +190,7 @@ h5{
         visibility: visible;
     }
 }
+
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
