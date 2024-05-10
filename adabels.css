@@ -143,12 +143,12 @@ section#hero {
     margin-left: 8%;
 }
 h2{
-    color: black;
+    color: rgb(238, 232, 232);
     font-size: 80px;
 
 }
 p{
-    color: black;
+    color: rgb(238, 232, 232);
     font-size: 15px;
     line-height: 19px;
     align-items: center;
@@ -189,7 +189,7 @@ p{
     transform: translateY(-10px);
 }
 h5{
-    color: black;
+    color: rgb(238, 232, 232);
     text-shadow: 0 0 5px #ffffff;
     text-decoration: solid;
 }
