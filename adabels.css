@@ -9,7 +9,7 @@
 body {
     height: 100vh;
     background-color: #000;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("home.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("green.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -154,22 +154,23 @@ p{
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url(bg.jpg);
+    background-image: url(bst.jpg);
 }
 .card2{
-    background-image: url(bg1.jpg);
+    background-image: url(bst1.jpg);
 }
 .card3{
-    background-image: url(home.jpg);
+    background-image: url(bst3.jpg);
 }
 .card4{
-    background-image: url(bg.jpg);
+    background-image: url(aboutus.jpg);
 }
 .card5{
-    background-image: url(bg1.jpg);
+    background-image: url(aboutus1.jpg);
 }
 .card6{
-    background-image: url(home.jpg);
+    background-image: url(bst2.jpg
+);
 }
 .card:hover{
     transform: translateY(-10px);
